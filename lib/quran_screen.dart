@@ -26,7 +26,6 @@ class _QuranScreenState extends State<QuranScreen> {
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
-
         leading: IconButton(
           icon: const Icon(
             Icons.arrow_back_ios,
@@ -36,7 +35,6 @@ class _QuranScreenState extends State<QuranScreen> {
             Navigator.pop(context);
           },
         ),
-
       ),
       body: AnimationLimiter(
         child: Padding(
@@ -88,8 +86,9 @@ class QuranWidget extends StatefulWidget {
   bool inDownload = false;
   double valueOfLinearProgress = 0.0;
 
-  int receivedData=0;
-  int totalData=0;
+  int receivedData = 0;
+  int totalData = 0;
+
   @override
   State<QuranWidget> createState() => _QuranWidgetState();
 }
@@ -100,6 +99,7 @@ class _QuranWidgetState extends State<QuranWidget>
   bool get wantKeepAlive => true;
   @override
   Widget build(BuildContext context) {
+    super.build(context);
     return Controller.checkIsDownloaded(url: widget.url)
         ? buildIfAudioIsDownloaded()
         : buildIfIsNotDownloaded();
@@ -108,8 +108,10 @@ class _QuranWidgetState extends State<QuranWidget>
   @override
   void initState() {
     super.initState();
+
     if (Controller.checkIsDownloaded(url: widget.url)) {
-      widget.audioPlayer.setUrl(widget.url);
+      String path = CashHelper.getData(key: widget.url);
+      widget.audioPlayer.setUrl(path);
       widget.audioPlayer.positionStream.listen((event) {
         setState(() {
           widget.progress = event;
@@ -163,17 +165,20 @@ class _QuranWidgetState extends State<QuranWidget>
               ),
               widget.inDownload
                   ? Row(
-                    children: [
-                      Text('${widget.receivedData}KB / ${widget.totalData}KB'),
-                        const SizedBox(width: 5.0,),
+                      children: [
+                        Text(
+                            '${widget.receivedData}KB / ${widget.totalData}KB'),
                         const SizedBox(
-                          height: 20, width: 20, child: CircularProgressIndicator()),
-
-
-                    ],
-                  )
+                          width: 5.0,
+                        ),
+                        const SizedBox(
+                            height: 20,
+                            width: 20,
+                            child: CircularProgressIndicator()),
+                      ],
+                    )
                   : IconButton(
-                      onPressed:_downloadItem,
+                      onPressed: _downloadItem,
                       icon: const Icon(
                         Icons.download,
                         color: Colors.black,
@@ -199,7 +204,7 @@ class _QuranWidgetState extends State<QuranWidget>
         setState(() {
           // audioController.pause();
           widget.isPlay = false;
-          // widget.isPaused=false;
+
           // widget.isStopped=true;
           widget.audioPlayer.pause();
         });
@@ -215,9 +220,7 @@ class _QuranWidgetState extends State<QuranWidget>
     return IconButton(
       onPressed: () {
         setState(() {
-          // widget.isPaused = false;
           widget.isPlay = true;
-
           widget.audioPlayer.play();
         });
       },
@@ -228,29 +231,26 @@ class _QuranWidgetState extends State<QuranWidget>
     );
   }
 
-  void _downloadItem() async{
+  void _downloadItem() async {
     setState(() {
       widget.inDownload = !widget.inDownload;
     });
 
-    Directory appDocDir =
-        await getApplicationDocumentsDirectory();
+    Directory appDocDir = await getApplicationDocumentsDirectory();
     String appDocPath = appDocDir.path;
     String downloadPath =
         '$appDocPath/quran/${widget.readerName}${widget.name}.mp3';
     Dio().download(widget.url, downloadPath,
         onReceiveProgress: (received, total) {
-          double percentage = ((received / total) * 100);
+      double percentage = (received / total);
 
-          setState(() {
-            widget.valueOfLinearProgress = percentage;
-            widget.receivedData=(received / 1024).round();
-            widget.totalData=(total/1024).round();
-
-          });
-        }).then((value) async {
-      await CashHelper.setData(
-          key: widget.url, value: downloadPath);
+      setState(() {
+        widget.valueOfLinearProgress = percentage;
+        widget.receivedData = (received / 1024).round();
+        widget.totalData = (total / 1024).round();
+      });
+    }).then((value) async {
+      await CashHelper.setData(key: widget.url, value: downloadPath);
 
       setState(() {
         widget.inDownload = !widget.inDownload;
