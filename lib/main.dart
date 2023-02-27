@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_native_splash/flutter_native_splash.dart';
 import 'package:just_audio/just_audio.dart';
 
 import 'package:quran_project/readers_screen.dart';
 import 'cash_helper.dart';
 
 void main() async {
-  WidgetsFlutterBinding.ensureInitialized();
+   WidgetsFlutterBinding.ensureInitialized();
+
   await CashHelper.init();
-// AudioPlayer audioPlayer =AudioPlayer();
-//   audioPlayer.setUrl('/data/user/0/com.example.quran_project/app_flutter/quran/mashariالفاتحة.mp3');
-//   audioPlayer.play();
+
   runApp(const MyApp());
 }
 

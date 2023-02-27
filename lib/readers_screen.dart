@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_native_splash/flutter_native_splash.dart';
 import 'package:flutter_staggered_animations/flutter_staggered_animations.dart';
 import 'package:quran_project/controller.dart';
 import 'package:quran_project/quran_screen.dart';
@@ -11,6 +12,11 @@ class ReadersScreen extends StatefulWidget {
 }
 
 class _ReadersScreenState extends State<ReadersScreen> {
+  @override
+  void initState() {
+     super.initState();
+
+  }
   @override
   Widget build(BuildContext context) {
     return Directionality(

@@ -20,7 +20,7 @@ dependencies:
   flutter_staggered_animations: ^1.1.1
   just_audio: ^0.9.31
   audio_video_progress_bar: ^1.0.0
-  flutter_native_splash: ^2.2.16
+  flutter_native_splash: ^2.2.7
 
 dev_dependencies:
   flutter_launcher_icons: "^0.12.0"
@@ -37,6 +37,13 @@ flutter_icons:
 
   flutter_lints: ^2.0.0
 
+flutter_native_splash:
+  android: true
+  ios: true
+  web: true
+  image: assets/images/quran.png
+  color: "ffffff"
+
 
 flutter:
 
@@ -46,15 +53,3 @@ flutter:
   assets:
     - assets/images/
 
-flutter_native_splash:
-  color: "#ffffff"
-  color_dark: "#ffffff"
-  image_dark: assets/images/quran.png
-  android_disable_fullscreen: true
-
-  android_12:
-    icon_background_color: "#ffffff"
-    icon_background_color_dark: "#ffffff"
-    android_disable_fullscreen: true
-
-  web: false
