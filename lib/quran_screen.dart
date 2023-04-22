@@ -21,6 +21,7 @@ class QuranScreen extends StatefulWidget {
 }
 
 class _QuranScreenState extends State<QuranScreen> {
+  AudioPlayer player=AudioPlayer();
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -56,6 +57,7 @@ class _QuranScreenState extends State<QuranScreen> {
                         name: widget.data.keys.toList()[index],
                         url: widget.data.values.toList()[index],
                         readerName: widget.readeName,
+                        audioPlayer: player,
                       ),
                     ),
                   ),
@@ -67,6 +69,11 @@ class _QuranScreenState extends State<QuranScreen> {
       ),
     );
   }
+  @override
+  void dispose() {
+   player.dispose();
+    super.dispose();
+  }
 }
 
 class QuranWidget extends StatefulWidget {
@@ -74,13 +81,15 @@ class QuranWidget extends StatefulWidget {
       {super.key,
       required this.url,
       required this.name,
-      required this.readerName});
+      required this.readerName,
+      required this.audioPlayer
+      });
   final String name;
   final String readerName;
   final String url;
   bool isPlay = false;
 
-  AudioPlayer audioPlayer = AudioPlayer();
+  AudioPlayer audioPlayer;
   Duration progress = Duration.zero;
 
   bool inDownload = false;

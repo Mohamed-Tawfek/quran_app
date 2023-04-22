@@ -385,3 +385,204 @@ Map<String, String> mashari = {
   'الناس':
       'https://firebasestorage.googleapis.com/v0/b/fproject-ba45b.appspot.com/o/mashari%2F114.mp3?alt=media&token=0640804e-8fcd-41d1-9e69-72be8837f596',
 };
+
+
+Map<String, String> eslam = {
+  'الفاتحة':
+      'https://firebasestorage.googleapis.com/v0/b/eslam-sobhy.appspot.com/o/eslam%20sobhy%2F001.mp3?alt=media&token=dbb0349b-7bc4-499b-90ec-399dbabc87a6',
+  'البقرة':
+      'https://firebasestorage.googleapis.com/v0/b/eslam-sobhy.appspot.com/o/eslam%20sobhy%2F002.mp3?alt=media&token=0d306f06-2ec7-4584-8e08-5cf4c6aea1a8',
+
+  'يوسف':
+      'https://firebasestorage.googleapis.com/v0/b/eslam-sobhy.appspot.com/o/eslam%20sobhy%2F012.mp3?alt=media&token=949d558b-75fa-409f-829d-07ee2251173a',
+  'الرعد':
+      'https://firebasestorage.googleapis.com/v0/b/eslam-sobhy.appspot.com/o/eslam%20sobhy%2F013.mp3?alt=media&token=1e4fcd81-9323-43e4-b3a8-05199d67f43d',
+  'إبراهيم':
+      'https://firebasestorage.googleapis.com/v0/b/eslam-sobhy.appspot.com/o/eslam%20sobhy%2F014.mp3?alt=media&token=7e0dc22d-8b76-4925-9e1b-4d9f45885cd2',
+  'الحجر':
+      'https://firebasestorage.googleapis.com/v0/b/eslam-sobhy.appspot.com/o/eslam%20sobhy%2F015.mp3?alt=media&token=94f83719-8769-49d7-a4bb-3dfe2e6e135f',
+
+  'الإسراء':
+      'https://firebasestorage.googleapis.com/v0/b/eslam-sobhy.appspot.com/o/eslam%20sobhy%2F017.mp3?alt=media&token=13097223-2ba0-49ae-bea7-741d9792aaa9',
+  'الكهف':
+      'https://firebasestorage.googleapis.com/v0/b/eslam-sobhy.appspot.com/o/eslam%20sobhy%2F018.mp3?alt=media&token=d4902a5f-7b8b-4b54-b82d-ad7c2066eeaf',
+  'مريم':
+      'https://firebasestorage.googleapis.com/v0/b/eslam-sobhy.appspot.com/o/eslam%20sobhy%2F019.mp3?alt=media&token=cbe054ef-21fb-4c75-9072-d56df0fb5ff2',
+  'طـه':
+      'https://firebasestorage.googleapis.com/v0/b/eslam-sobhy.appspot.com/o/eslam%20sobhy%2F020.mp3?alt=media&token=a421cf9c-b38a-4419-a9fe-de0cf2b9ed0a',
+  'الأنبياء':
+      'https://firebasestorage.googleapis.com/v0/b/eslam-sobhy.appspot.com/o/eslam%20sobhy%2F021.mp3?alt=media&token=e427f33b-b2ad-4066-90e0-69dc21979b68',
+
+  'الفرقان':
+      'https://firebasestorage.googleapis.com/v0/b/eslam-sobhy.appspot.com/o/eslam%20sobhy%2F025.mp3?alt=media&token=fd43d900-498f-4574-8c99-6c3a32691259',
+  'الشعراء':
+      'https://firebasestorage.googleapis.com/v0/b/eslam-sobhy.appspot.com/o/eslam%20sobhy%2F026.mp3?alt=media&token=d91d1ddf-9c44-4153-afad-675621e13345',
+  'النمل':
+      'https://firebasestorage.googleapis.com/v0/b/eslam-sobhy.appspot.com/o/eslam%20sobhy%2F027.mp3?alt=media&token=0db30a7d-e836-4937-b5ed-1e8dfba5992d',
+
+  'العنكبوت':
+      'https://firebasestorage.googleapis.com/v0/b/eslam-sobhy.appspot.com/o/eslam%20sobhy%2F029.mp3?alt=media&token=68df30d2-d082-4743-93f0-a13685f57096',
+  'الروم':
+      'https://firebasestorage.googleapis.com/v0/b/eslam-sobhy.appspot.com/o/eslam%20sobhy%2F030.mp3?alt=media&token=4095227c-b1e4-45b0-8d3d-1aadd2668593',
+  'لقمان':
+      'https://firebasestorage.googleapis.com/v0/b/eslam-sobhy.appspot.com/o/eslam%20sobhy%2F031.mp3?alt=media&token=8cfa169a-b480-4a92-b482-4af0974358b2',
+  'السجدة':
+      'https://firebasestorage.googleapis.com/v0/b/eslam-sobhy.appspot.com/o/eslam%20sobhy%2F032.mp3?alt=media&token=8cd4c54d-d72f-4a47-9289-b4d6f6de1c25',
+
+  'سبأ':
+      'https://firebasestorage.googleapis.com/v0/b/eslam-sobhy.appspot.com/o/eslam%20sobhy%2F034.mp3?alt=media&token=fe64af46-3a8e-48e6-b8a8-a91ee5229a9a',
+  'فاطر':
+      'https://firebasestorage.googleapis.com/v0/b/eslam-sobhy.appspot.com/o/eslam%20sobhy%2F035.mp3?alt=media&token=4300b6d8-9bb6-4c4c-a525-ef65a6e44e2a',
+  'يس':
+      'https://firebasestorage.googleapis.com/v0/b/eslam-sobhy.appspot.com/o/eslam%20sobhy%2F036.mp3?alt=media&token=0328d9c1-dae9-44b3-a409-f11ab077378d',
+
+  'ص':
+      'https://firebasestorage.googleapis.com/v0/b/eslam-sobhy.appspot.com/o/eslam%20sobhy%2F038.mp3?alt=media&token=764300f9-a136-45c5-8e0f-24c8c7ed6944',
+
+
+  'فصلت':
+      'https://firebasestorage.googleapis.com/v0/b/eslam-sobhy.appspot.com/o/eslam%20sobhy%2F041.mp3?alt=media&token=68cdb8ef-0029-44bb-9fd0-7a0392439625',
+  'الشورى':
+      'https://firebasestorage.googleapis.com/v0/b/eslam-sobhy.appspot.com/o/eslam%20sobhy%2F042.mp3?alt=media&token=f6282b69-2cb5-4b28-853a-c4e63aa3a3d1',
+
+  'الدخان':
+      'https://firebasestorage.googleapis.com/v0/b/eslam-sobhy.appspot.com/o/eslam%20sobhy%2F044.mp3?alt=media&token=57fa1b4f-08b9-4db7-8909-266829c62d4a',
+
+  'الأحقاف':
+      'https://firebasestorage.googleapis.com/v0/b/eslam-sobhy.appspot.com/o/eslam%20sobhy%2F046.mp3?alt=media&token=4e727f48-1490-4b08-bb98-c1309ae98991',
+
+  'محمد':
+      'https://firebasestorage.googleapis.com/v0/b/eslam-sobhy.appspot.com/o/eslam%20sobhy%2F047.mp3?alt=media&token=194a95fb-a83e-46ef-84da-1414d6a974b8',
+  'الفتح':
+      'https://firebasestorage.googleapis.com/v0/b/eslam-sobhy.appspot.com/o/eslam%20sobhy%2F048.mp3?alt=media&token=4b130c44-8813-4012-8310-62a060bd2fff',
+  'الحجرات':
+      'https://firebasestorage.googleapis.com/v0/b/eslam-sobhy.appspot.com/o/eslam%20sobhy%2F049.mp3?alt=media&token=0dfa6bff-4c21-48eb-8698-f6bb3b344746',
+  'ق':
+      'https://firebasestorage.googleapis.com/v0/b/eslam-sobhy.appspot.com/o/eslam%20sobhy%2F050.mp3?alt=media&token=048e7e92-693d-49ec-a81e-84736e88f679',
+  'الذاريات':
+      'https://firebasestorage.googleapis.com/v0/b/eslam-sobhy.appspot.com/o/eslam%20sobhy%2F051.mp3?alt=media&token=c9366011-afb1-4171-8c36-da98477afe9f',
+
+  'النجم':
+      'https://firebasestorage.googleapis.com/v0/b/eslam-sobhy.appspot.com/o/eslam%20sobhy%2F053.mp3?alt=media&token=b9d1ae5b-3dbe-4b32-a6df-f44dff484001',
+  'القمر':
+      'https://firebasestorage.googleapis.com/v0/b/eslam-sobhy.appspot.com/o/eslam%20sobhy%2F054.mp3?alt=media&token=ad1073b5-05f4-43db-a9dd-68afcbc0066a',
+  'الرحمن':
+      'https://firebasestorage.googleapis.com/v0/b/eslam-sobhy.appspot.com/o/eslam%20sobhy%2F055.mp3?alt=media&token=f1f83d65-3fc9-4647-b835-ee580d7474b0',
+  'الواقعة':
+      'https://firebasestorage.googleapis.com/v0/b/eslam-sobhy.appspot.com/o/eslam%20sobhy%2F056.mp3?alt=media&token=251bfc7c-d579-4b87-bcbd-1d1a1938bb78',
+
+  'المجادلة':
+      'https://firebasestorage.googleapis.com/v0/b/eslam-sobhy.appspot.com/o/eslam%20sobhy%2F058.mp3?alt=media&token=0ec57737-8af5-4982-9120-8ee6328bcf67',
+
+  'الحشر':
+      'https://firebasestorage.googleapis.com/v0/b/eslam-sobhy.appspot.com/o/eslam%20sobhy%2F059.mp3?alt=media&token=cbf053df-e352-4c12-9fd6-9876acca237e',
+
+  'الصف':
+      'https://firebasestorage.googleapis.com/v0/b/eslam-sobhy.appspot.com/o/eslam%20sobhy%2F061.mp3?alt=media&token=0b5c1249-456e-4d2f-a442-26252683a6a6',
+  'الجمعة':
+      'https://firebasestorage.googleapis.com/v0/b/eslam-sobhy.appspot.com/o/eslam%20sobhy%2F062.mp3?alt=media&token=fefee85b-7936-404b-b37a-2ed40502f718',
+
+
+  'المنافقون':
+      'https://firebasestorage.googleapis.com/v0/b/eslam-sobhy.appspot.com/o/eslam%20sobhy%2F063.mp3?alt=media&token=a4055c4b-cd74-440b-87d7-cd3db95b8028',
+  'التغابن':
+      'https://firebasestorage.googleapis.com/v0/b/eslam-sobhy.appspot.com/o/eslam%20sobhy%2F064.mp3?alt=media&token=42ce187f-371f-4c38-adf7-37dfce270279',
+
+  'التحريم':
+      'https://firebasestorage.googleapis.com/v0/b/eslam-sobhy.appspot.com/o/eslam%20sobhy%2F066.mp3?alt=media&token=f05cbe69-4628-4814-b113-70541f0f69de',
+
+  'الملك':
+      'https://firebasestorage.googleapis.com/v0/b/eslam-sobhy.appspot.com/o/eslam%20sobhy%2F067.mp3?alt=media&token=70e231af-2d89-4a83-962a-636aa4d2bed8',
+  'القلم':
+      'https://firebasestorage.googleapis.com/v0/b/eslam-sobhy.appspot.com/o/eslam%20sobhy%2F068.mp3?alt=media&token=b1d3fb60-45b8-498c-aadd-fb0a20b51e32',
+
+  'المعارج':
+      'https://firebasestorage.googleapis.com/v0/b/eslam-sobhy.appspot.com/o/eslam%20sobhy%2F070.mp3?alt=media&token=5fa31823-c262-449d-a4f9-13e1151ec661',
+  'نوح':
+      'https://firebasestorage.googleapis.com/v0/b/eslam-sobhy.appspot.com/o/eslam%20sobhy%2F071.mp3?alt=media&token=73b92d0e-07de-489f-9525-d13398e569fa',
+  'الجن':
+      'https://firebasestorage.googleapis.com/v0/b/eslam-sobhy.appspot.com/o/eslam%20sobhy%2F072.mp3?alt=media&token=0bacab31-f581-4b63-b289-aa1981b92c62',
+
+  'المزمل':
+      'https://firebasestorage.googleapis.com/v0/b/eslam-sobhy.appspot.com/o/eslam%20sobhy%2F073.mp3?alt=media&token=92897344-9ff9-41a6-8ab3-17da2f34605b',
+
+  'المدثر':
+      'https://firebasestorage.googleapis.com/v0/b/eslam-sobhy.appspot.com/o/eslam%20sobhy%2F074.mp3?alt=media&token=62180ca1-3b49-4a60-b813-fe9b9f77bec1',
+  'القيامة':
+      'https://firebasestorage.googleapis.com/v0/b/eslam-sobhy.appspot.com/o/eslam%20sobhy%2F075.mp3?alt=media&token=5d0b523f-fcea-47ab-8f97-f1b337773066',
+  'الإنسان':
+      'https://firebasestorage.googleapis.com/v0/b/eslam-sobhy.appspot.com/o/eslam%20sobhy%2F076.mp3?alt=media&token=33c52aeb-88ad-42d3-a46b-103c0a497bf5',
+  'المرسلات':
+      'https://firebasestorage.googleapis.com/v0/b/eslam-sobhy.appspot.com/o/eslam%20sobhy%2F077.mp3?alt=media&token=affcda1d-1f43-4d80-94d2-52528bff72f0',
+
+
+  'النبأ':
+      'https://firebasestorage.googleapis.com/v0/b/eslam-sobhy.appspot.com/o/eslam%20sobhy%2F078.mp3?alt=media&token=e2c32f17-7b59-4e6a-af0e-a90c1eac43ce',
+  'النازعات':
+      'https://firebasestorage.googleapis.com/v0/b/eslam-sobhy.appspot.com/o/eslam%20sobhy%2F079.mp3?alt=media&token=42802dd0-989c-49b7-981c-d44be3fb93ec',
+
+
+
+  'عبس':
+      'https://firebasestorage.googleapis.com/v0/b/eslam-sobhy.appspot.com/o/eslam%20sobhy%2F080.mp3?alt=media&token=27ecb48a-f3b2-4258-829b-13a43acc4d3c',
+  'التكوير':
+      'https://firebasestorage.googleapis.com/v0/b/eslam-sobhy.appspot.com/o/eslam%20sobhy%2F081.mp3?alt=media&token=d789c34e-167a-4dd9-9934-e59cc2ee9eaa',
+
+
+  'الإنفطار':
+      'https://firebasestorage.googleapis.com/v0/b/eslam-sobhy.appspot.com/o/eslam%20sobhy%2F082.mp3?alt=media&token=8e517687-8bc6-46de-816c-6a230e507d91',
+  'المطففين':
+      'https://firebasestorage.googleapis.com/v0/b/eslam-sobhy.appspot.com/o/eslam%20sobhy%2F083.mp3?alt=media&token=fb45d23b-c064-4dc8-9ff6-1706702bb4f5',
+  'الإنشقاق':
+      'https://firebasestorage.googleapis.com/v0/b/eslam-sobhy.appspot.com/o/eslam%20sobhy%2F084.mp3?alt=media&token=04576847-9b66-4832-a866-94e9e4255884',
+  'البروج':
+      'https://firebasestorage.googleapis.com/v0/b/eslam-sobhy.appspot.com/o/eslam%20sobhy%2F085.mp3?alt=media&token=d472870b-5bd0-47ef-a713-9f81d2558e61',
+  'الطارق':
+      'https://firebasestorage.googleapis.com/v0/b/eslam-sobhy.appspot.com/o/eslam%20sobhy%2F086.mp3?alt=media&token=8f82b7ef-2cae-443b-9b50-07f1270cab6c',
+  'الأعلى':
+      'https://firebasestorage.googleapis.com/v0/b/eslam-sobhy.appspot.com/o/eslam%20sobhy%2F087.mp3?alt=media&token=4372290d-5385-41ac-b071-c15de0a7a40f',
+  'الغاشية':
+      'https://firebasestorage.googleapis.com/v0/b/eslam-sobhy.appspot.com/o/eslam%20sobhy%2F088.mp3?alt=media&token=81c7bb5d-d2f4-40cb-a78e-2975bf7babab',
+  'الفجر':
+      'https://firebasestorage.googleapis.com/v0/b/eslam-sobhy.appspot.com/o/eslam%20sobhy%2F089.mp3?alt=media&token=69d6e95b-26c7-4e67-a2a8-3616509b2e24',
+  'البلد':
+      'https://firebasestorage.googleapis.com/v0/b/eslam-sobhy.appspot.com/o/eslam%20sobhy%2F090.mp3?alt=media&token=66972d16-78ba-4bc7-8bcf-b3401263d11b',
+  'الشمس':
+      'https://firebasestorage.googleapis.com/v0/b/eslam-sobhy.appspot.com/o/eslam%20sobhy%2F091.mp3?alt=media&token=2ce66460-48b4-4ab8-9f59-962ecf1e4f5f',
+  'الليل':
+      'https://firebasestorage.googleapis.com/v0/b/eslam-sobhy.appspot.com/o/eslam%20sobhy%2F092.mp3?alt=media&token=80de688c-1811-41e0-a1b1-036c472510b9',
+  'الضحى':
+      'https://firebasestorage.googleapis.com/v0/b/eslam-sobhy.appspot.com/o/eslam%20sobhy%2F093.mp3?alt=media&token=b21734cc-32d0-4025-b0ac-d265d5d6fedc',
+  'الشرح':
+      'https://firebasestorage.googleapis.com/v0/b/eslam-sobhy.appspot.com/o/eslam%20sobhy%2F094.mp3?alt=media&token=0e8fccda-7a00-42ef-a1e8-0bc70f5a2e56',
+  'التين':
+      'https://firebasestorage.googleapis.com/v0/b/eslam-sobhy.appspot.com/o/eslam%20sobhy%2F095.mp3?alt=media&token=e61aa771-3e0a-4f82-b535-02e30f93f177',
+  'العلق':
+      'https://firebasestorage.googleapis.com/v0/b/eslam-sobhy.appspot.com/o/eslam%20sobhy%2F096.mp3?alt=media&token=6bcb903c-2995-43c5-af93-03426625d50d',
+  'القدر':
+      'https://firebasestorage.googleapis.com/v0/b/eslam-sobhy.appspot.com/o/eslam%20sobhy%2F097.mp3?alt=media&token=4ce6865f-4979-4a60-857c-e93c7dc579b4',
+  'البيِّنة':
+      'https://firebasestorage.googleapis.com/v0/b/eslam-sobhy.appspot.com/o/eslam%20sobhy%2F098.mp3?alt=media&token=f3f33fcd-dd2a-4d62-bb29-d8b8e09fb537',
+  'الزلزلة':
+      'https://firebasestorage.googleapis.com/v0/b/eslam-sobhy.appspot.com/o/eslam%20sobhy%2F099.mp3?alt=media&token=fb628caf-7d5b-4c2e-84fd-075f825b296b',
+  'العاديات':
+      'https://firebasestorage.googleapis.com/v0/b/eslam-sobhy.appspot.com/o/eslam%20sobhy%2F100.mp3?alt=media&token=57863b6d-ef81-487f-a4cd-a5d56996536f',
+  'القارعة':
+      'https://firebasestorage.googleapis.com/v0/b/eslam-sobhy.appspot.com/o/eslam%20sobhy%2F101.mp3?alt=media&token=9b5b4d8a-448a-44cb-8598-7946b76e3db2',
+  'التكاثر':
+      'https://firebasestorage.googleapis.com/v0/b/eslam-sobhy.appspot.com/o/eslam%20sobhy%2F102.mp3?alt=media&token=8b19e601-038a-4b23-974e-7bc36c676505',
+  'العصر':
+      'https://firebasestorage.googleapis.com/v0/b/eslam-sobhy.appspot.com/o/eslam%20sobhy%2F103.mp3?alt=media&token=a458168a-c995-445d-ab5d-e91692e5dd4d',
+  'الهمزة':
+      'https://firebasestorage.googleapis.com/v0/b/eslam-sobhy.appspot.com/o/eslam%20sobhy%2F104.mp3?alt=media&token=3a570059-0535-48e2-8017-84f35f19d77b',
+  'قريش':
+      'https://firebasestorage.googleapis.com/v0/b/eslam-sobhy.appspot.com/o/eslam%20sobhy%2F106.mp3?alt=media&token=7a7232da-b54c-489d-8419-4b3f20310dc3',
+  'الماعون':
+      'https://firebasestorage.googleapis.com/v0/b/eslam-sobhy.appspot.com/o/eslam%20sobhy%2F107.mp3?alt=media&token=763e7796-c345-472b-bafd-ab00c009c97f',
+  'الكوثر':
+      'https://firebasestorage.googleapis.com/v0/b/eslam-sobhy.appspot.com/o/eslam%20sobhy%2F108.mp3?alt=media&token=807e562d-5002-4519-98e3-c942a8388b76',
+  'الكافرون':
+      'https://firebasestorage.googleapis.com/v0/b/eslam-sobhy.appspot.com/o/eslam%20sobhy%2F109.mp3?alt=media&token=aba9dae5-7b57-4cf7-adbf-748a0b0358cb',
+  'الناس':
+      'https://firebasestorage.googleapis.com/v0/b/eslam-sobhy.appspot.com/o/eslam%20sobhy%2F114.mp3?alt=media&token=168d8549-05e1-48d8-8284-f63c16fdcbc3',
+};

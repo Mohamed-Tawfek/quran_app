@@ -20,6 +20,13 @@ class Controller {
         quran: mashari),
     Reader(
         name: 'هزاع البلوشى', imagePath: 'assets/images/hazaa.jpg', quran: hazaa),
+    Reader(
+        name: 'اسلام صبحى', imagePath: 'assets/images/eslam.jpg', quran: eslam),
+
+
+
+
+
   ];
 }
 
