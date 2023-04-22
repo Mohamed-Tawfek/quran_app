@@ -113,7 +113,11 @@ class _QuranWidgetState extends State<QuranWidget>
         ? buildIfAudioIsDownloaded()
         : buildIfIsNotDownloaded();
   }
-
+@override
+  void dispose() {
+  widget.audioPlayer.dispose();
+    super.dispose();
+  }
   @override
   void initState() {
     super.initState();
@@ -124,6 +128,12 @@ class _QuranWidgetState extends State<QuranWidget>
       widget.audioPlayer.positionStream.listen((event) {
         setState(() {
           widget.progress = event;
+
+          if (widget.audioPlayer.duration == event) {
+            widget.audioPlayer.seek(Duration.zero);
+            widget.audioPlayer.pause();
+            widget.isPlay = false;
+          }
         });
       });
     }
