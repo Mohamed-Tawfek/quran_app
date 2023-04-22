@@ -57,7 +57,7 @@ class _QuranScreenState extends State<QuranScreen> {
                         name: widget.data.keys.toList()[index],
                         url: widget.data.values.toList()[index],
                         readerName: widget.readeName,
-                        audioPlayer: player,
+
                       ),
                     ),
                   ),
@@ -69,11 +69,7 @@ class _QuranScreenState extends State<QuranScreen> {
       ),
     );
   }
-  @override
-  void dispose() {
-   player.dispose();
-    super.dispose();
-  }
+
 }
 
 class QuranWidget extends StatefulWidget {
@@ -82,14 +78,14 @@ class QuranWidget extends StatefulWidget {
       required this.url,
       required this.name,
       required this.readerName,
-      required this.audioPlayer
+
       });
   final String name;
   final String readerName;
   final String url;
   bool isPlay = false;
 
-  AudioPlayer audioPlayer;
+  AudioPlayer audioPlayer=AudioPlayer();
   Duration progress = Duration.zero;
 
   bool inDownload = false;
